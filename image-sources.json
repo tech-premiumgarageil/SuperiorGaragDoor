@@ -1,0 +1,36 @@
+{
+  "sourcePage": "https://premiumgarageil.com/",
+  "requestedByUser": true,
+  "photoInstancesReplaced": 26,
+  "pages": 10,
+  "layoutsPerPage": ["desktop", "mobile"],
+  "photos": [
+    {
+      "role": "Homepage hero",
+      "url": "https://premiumgarageil.com/wp-content/uploads/2025/06/Premium-Garage-Door-47.webp",
+      "file": "Premium-Garage-Door-47.webp"
+    },
+    {
+      "role": "Repair card; emergency and repair service heroes",
+      "url": "https://premiumgarageil.com/wp-content/uploads/2024/04/Premium-Garage-Door-53.jpg",
+      "file": "Premium-Garage-Door-53.jpg"
+    },
+    {
+      "role": "Installation card and service hero",
+      "url": "https://premiumgarageil.com/wp-content/uploads/2024/04/Premium-Garage-Door-Overlay_Carriage_House-Doors-2.jpg",
+      "file": "Premium-Garage-Door-Overlay_Carriage_House-Doors-2.jpg"
+    },
+    {
+      "role": "Commercial card and service hero",
+      "url": "https://premiumgarageil.com/wp-content/uploads/2026/07/commerical-customer.webp",
+      "file": "commerical-customer.webp"
+    },
+    {
+      "role": "Opener, spring, cable and off-track service heroes",
+      "url": "https://premiumgarageil.com/wp-content/uploads/2024/04/rolling-garage-doors.jpg",
+      "file": "rolling-garage-doors.jpg"
+    }
+  ],
+  "heroTreatment": "Homepage image brightness 35%; existing service hero overlays retained.",
+  "scope": "Editable Paper designs; not presented as Superior company projects."
+}

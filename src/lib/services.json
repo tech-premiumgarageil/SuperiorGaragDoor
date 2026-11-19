@@ -1,0 +1,389 @@
+[
+  {
+    "title": "Emergency Garage Door Services",
+    "slug": "emergency-garage-door-services",
+    "description": "A door stuck open, shut, or halfway can interrupt your whole day. Tell us what happened and where you need help in Chicago or Highland Park.",
+    "image": "/images/repair.jpg",
+    "imageAlt": "Two white sectional garage doors on a residential property",
+    "intro": "When the door cannot wait",
+    "explanation": "Use this page for urgent garage door problems at a home or business. Share the condition of the door so the service request starts with the right information.",
+    "reasons": [
+      "The garage door will not close",
+      "Your vehicle is trapped inside",
+      "The door is crooked or partly open",
+      "A spring or cable appears damaged"
+    ],
+    "details": [
+      "Describe whether the door is open or closed",
+      "Mention any visible damage or unusual movement",
+      "Share your location and access details",
+      "Ask about current scheduling availability"
+    ],
+    "note": "Keep clear of a damaged or unstable door. Do not force it or attempt spring or cable work.",
+    "faqHeading": "Questions about emergency service",
+    "faqs": [
+      {
+        "question": "Is emergency service available at any time?",
+        "answer": "Availability and response times must be confirmed when you contact the business."
+      },
+      {
+        "question": "What should I include in my request?",
+        "answer": "Your location, whether the door is open or closed, and a short description of the issue are useful starting points."
+      },
+      {
+        "question": "Can this be for a business property?",
+        "answer": "Yes. The service offering includes commercial garage doors as well as residential doors."
+      }
+    ],
+    "related": [
+      "garage-door-repair",
+      "garage-door-spring-replacement",
+      "garage-off-track-repair"
+    ],
+    "paperUrl": "https://app.paper.design/file/01M7NGKTX1SH1T9YZH3SP7SV5D/p-2-0"
+  },
+  {
+    "title": "Garage Door Repair",
+    "slug": "garage-door-repair",
+    "description": "Sticking, grinding, uneven movement, or a door that will not respond? Request garage door repair for your Chicago or Highland Park property.",
+    "image": "/images/repair.jpg",
+    "imageAlt": "Two white sectional garage doors on a residential property",
+    "intro": "Get to the cause of the problem",
+    "explanation": "A door problem can involve more than one component. Describe what the door does, when the issue started, and anything that changed before it happened.",
+    "reasons": [
+      "The door stops before fully opening or closing",
+      "Movement is noisy, jerky, or uneven",
+      "The door looks misaligned",
+      "The opener runs but the door does not move normally"
+    ],
+    "details": [
+      "Door movement and alignment concerns",
+      "Spring, cable, and track-related problems",
+      "Opener and control-related symptoms",
+      "Repair and replacement options to discuss"
+    ],
+    "note": "If the door looks unstable, keep people and vehicles clear until the issue can be assessed.",
+    "faqHeading": "Questions about door repair",
+    "faqs": [
+      {
+        "question": "Do I need to know which part is broken?",
+        "answer": "No. Describe what you see or hear. A photo and the door or opener model can help the conversation."
+      },
+      {
+        "question": "Can I ask about repair versus replacement?",
+        "answer": "Yes. Include your goals and any recurring issues so both options can be discussed."
+      },
+      {
+        "question": "How do I find out the cost?",
+        "answer": "Send a service request with the problem details. Scope, parts, and pricing need confirmation for your door."
+      }
+    ],
+    "related": [
+      "garage-door-spring-replacement",
+      "garage-door-cable-repair",
+      "garage-off-track-repair"
+    ],
+    "paperUrl": "https://app.paper.design/file/01M7NGKTX1SH1T9YZH3SP7SV5D/p-3-0"
+  },
+  {
+    "title": "Garage Door Installation",
+    "slug": "garage-door-installation",
+    "description": "Planning a new garage door? Explore installation for homes and businesses in Chicago and Highland Park, with a door choice that fits your property.",
+    "image": "/images/installation.jpg",
+    "imageAlt": "White carriage-style garage doors on a residential property",
+    "intro": "A new door starts with the right fit",
+    "explanation": "Whether replacing an existing door or planning a new opening, start with the property details and the look you want. Share what matters most before selecting a door.",
+    "reasons": [
+      "You are replacing an existing garage door",
+      "The current door is damaged or outdated",
+      "You want a different style or finish",
+      "You are planning a new garage opening"
+    ],
+    "details": [
+      "Opening size and existing door information",
+      "Style, finish, and window preferences",
+      "Opener compatibility and installation needs",
+      "Property access and project scheduling"
+    ],
+    "note": "Share photos and any available measurements as a starting point; final requirements need confirmation.",
+    "faqHeading": "Questions about door installation",
+    "faqs": [
+      {
+        "question": "Can I replace my existing garage door?",
+        "answer": "Replacement is part of the installation discussion. Include photos and details about the current door and opening."
+      },
+      {
+        "question": "Can I request a new opener too?",
+        "answer": "Yes. Garage Door Opener Installation is a separate service that can be discussed with your door project."
+      },
+      {
+        "question": "Which styles and brands are available?",
+        "answer": "Tell us the look and features you want. Product selection, brand availability, and specifications need confirmation."
+      }
+    ],
+    "related": [
+      "garage-door-opener-installation",
+      "commercial-garage-door",
+      "garage-door-repair"
+    ],
+    "paperUrl": "https://app.paper.design/file/01M7NGKTX1SH1T9YZH3SP7SV5D/p-4-0"
+  },
+  {
+    "title": "Garage Door Opener Repair",
+    "slug": "garage-door-opener-repair",
+    "description": "An unresponsive remote, an opener that stops unexpectedly, or a motor that runs without normal door movement can make access frustrating. Start an opener repair request.",
+    "image": "/images/hardware.jpg",
+    "imageAlt": "Interior overhead garage door with tracks and operating hardware",
+    "intro": "When the controls do not work as expected",
+    "explanation": "Tell us which controls are affected and what the opener does when you try to use it. Include the brand and model if you have them.",
+    "reasons": [
+      "The remote or wall control does not respond",
+      "The opener starts, then stops",
+      "The door reverses unexpectedly",
+      "The motor runs without normal door movement"
+    ],
+    "details": [
+      "Remote and wall-control symptoms",
+      "Opener operation and response issues",
+      "Sensor-related concerns to describe",
+      "Repair or replacement options to discuss"
+    ],
+    "note": "Avoid repeatedly cycling a door that is moving abnormally. Keep the opening clear.",
+    "faqHeading": "Questions about opener repair",
+    "faqs": [
+      {
+        "question": "Should I include the opener model?",
+        "answer": "Yes, if it is easy to find. A photo of the opener label and a description of the symptoms are helpful."
+      },
+      {
+        "question": "Does an opener issue mean I need a new unit?",
+        "answer": "Not necessarily. Repair and replacement options depend on the setup and issue and need to be discussed."
+      },
+      {
+        "question": "Can I request help if only the remote fails?",
+        "answer": "Yes. Mention whether the wall control still works and which remotes or keypads are affected."
+      }
+    ],
+    "related": [
+      "garage-door-opener-installation",
+      "garage-door-repair",
+      "emergency-garage-door-services"
+    ],
+    "paperUrl": "https://app.paper.design/file/01M7NGKTX1SH1T9YZH3SP7SV5D/p-5-0"
+  },
+  {
+    "title": "Garage Door Opener Installation",
+    "slug": "garage-door-opener-installation",
+    "description": "Add an opener to a new garage door or discuss replacing an existing unit. Request installation for your Chicago or Highland Park property.",
+    "image": "/images/hardware.jpg",
+    "imageAlt": "Interior overhead garage door with tracks and operating hardware",
+    "intro": "Choose how you want to get in",
+    "explanation": "Share your existing door and opener setup, how you use the garage, and any features you are interested in. Equipment and compatibility can then be discussed.",
+    "reasons": [
+      "You are replacing an existing opener",
+      "A new door project also needs an opener",
+      "You want different controls or access features",
+      "You are exploring a first opener installation"
+    ],
+    "details": [
+      "Existing door and opener details",
+      "Remote, keypad, and access preferences",
+      "Compatibility and power requirements",
+      "Installation scope and scheduling"
+    ],
+    "note": "Brands, connected features, accessories, and product availability need confirmation before selection.",
+    "faqHeading": "Questions about opener installation",
+    "faqs": [
+      {
+        "question": "Can I replace an existing opener?",
+        "answer": "Yes. Include the current unit details and the reason you want to replace it in your request."
+      },
+      {
+        "question": "Can I ask about keypad or connected features?",
+        "answer": "Yes. List the features you want so compatible options, available products, and accessories can be discussed."
+      },
+      {
+        "question": "Can this be part of a new door installation?",
+        "answer": "Yes. Request Garage Door Installation as a related service and mention that both are part of your project."
+      }
+    ],
+    "related": [
+      "garage-door-installation",
+      "garage-door-opener-repair",
+      "commercial-garage-door"
+    ],
+    "paperUrl": "https://app.paper.design/file/01M7NGKTX1SH1T9YZH3SP7SV5D/p-6-0"
+  },
+  {
+    "title": "Commercial Garage Door",
+    "slug": "commercial-garage-door",
+    "description": "Keep your property needs at the center of the conversation. Request commercial garage door service or installation for a Chicago or Highland Park business.",
+    "image": "/images/commercial.webp",
+    "imageAlt": "Overhead garage doors inside a commercial service building",
+    "intro": "Garage door service for your business property",
+    "explanation": "Commercial requests start with the door type, property access, and how the issue affects your operation. Include an on-site contact and any access restrictions.",
+    "reasons": [
+      "A business garage door is not operating normally",
+      "A damaged door affects access to the property",
+      "You are planning a new commercial installation",
+      "Your current setup needs repair or replacement"
+    ],
+    "details": [
+      "Door type, opening, and existing equipment",
+      "Operating symptoms and visible damage",
+      "Site contact, access, and work-area details",
+      "Repair, installation, and scheduling needs"
+    ],
+    "note": "Supported door types, equipment, and site requirements need confirmation for each commercial project.",
+    "faqHeading": "Questions about commercial service",
+    "faqs": [
+      {
+        "question": "What details should a commercial request include?",
+        "answer": "Share the door type if known, photos, the issue or project scope, and the best on-site contact."
+      },
+      {
+        "question": "Can I request a new commercial garage door?",
+        "answer": "Yes. Commercial installation is included in the service offering; project requirements and product options need confirmation."
+      },
+      {
+        "question": "Can access or scheduling restrictions be considered?",
+        "answer": "Include delivery times, access rules, or other restrictions in your request so they can be discussed before work is arranged."
+      }
+    ],
+    "related": [
+      "garage-door-installation",
+      "garage-door-repair",
+      "garage-door-opener-installation"
+    ],
+    "paperUrl": "https://app.paper.design/file/01M7NGKTX1SH1T9YZH3SP7SV5D/p-7-0"
+  },
+  {
+    "title": "Garage Door Spring Replacement",
+    "slug": "garage-door-spring-replacement",
+    "description": "Concerned about a worn or broken garage door spring? Request spring replacement for your Chicago or Highland Park property and leave spring work to a professional.",
+    "image": "/images/hardware.jpg",
+    "imageAlt": "Interior overhead garage door with tracks and operating hardware",
+    "intro": "A spring problem needs the right attention",
+    "explanation": "Describe the condition of the door and any visible change. You do not need to identify the spring type before requesting service.",
+    "reasons": [
+      "A spring appears visibly broken or separated",
+      "The door will not lift as it normally does",
+      "Movement has become uneven",
+      "You suspect a spring issue after a sudden change"
+    ],
+    "details": [
+      "The door position and current symptoms",
+      "Visible spring damage, if any",
+      "Existing door information and photos",
+      "Replacement requirements to confirm"
+    ],
+    "note": "Do not attempt to adjust or remove garage door springs. Keep clear of a damaged door.",
+    "faqHeading": "Questions about spring replacement",
+    "faqs": [
+      {
+        "question": "Do I need to identify the spring type?",
+        "answer": "No. A photo and a description of the door are enough to start the service conversation."
+      },
+      {
+        "question": "Should I keep operating the door?",
+        "answer": "If you suspect spring damage, avoid using or forcing the door and keep people clear until it can be assessed."
+      },
+      {
+        "question": "What determines the replacement requirements?",
+        "answer": "The existing door and spring setup need to be assessed. Parts, scope, and pricing must be confirmed for your property."
+      }
+    ],
+    "related": [
+      "garage-door-cable-repair",
+      "garage-door-repair",
+      "emergency-garage-door-services"
+    ],
+    "paperUrl": "https://app.paper.design/file/01M7NGKTX1SH1T9YZH3SP7SV5D/p-8-0"
+  },
+  {
+    "title": "Garage Door Cable Repair",
+    "slug": "garage-door-cable-repair",
+    "description": "A frayed, loose, or visibly damaged cable is a reason to stop and request professional help. Start a garage door cable repair request for Chicago or Highland Park.",
+    "image": "/images/hardware.jpg",
+    "imageAlt": "Interior overhead garage door with tracks and operating hardware",
+    "intro": "Address cable concerns before using the door",
+    "explanation": "Tell us what you can see from a safe distance and whether the door is open, closed, or uneven. Cable-related work should be handled professionally.",
+    "reasons": [
+      "A cable appears frayed or damaged",
+      "A cable looks loose or out of position",
+      "One side of the door sits lower",
+      "The door became crooked or stopped moving normally"
+    ],
+    "details": [
+      "Visible cable condition and door position",
+      "Related alignment or movement symptoms",
+      "Door details and safely taken photos",
+      "Repair or replacement requirements to confirm"
+    ],
+    "note": "Do not pull, reconnect, or tension a garage door cable yourself. Stay clear of a crooked or unstable door.",
+    "faqHeading": "Questions about cable repair",
+    "faqs": [
+      {
+        "question": "Can I reconnect a loose cable myself?",
+        "answer": "Leave cable work to a professional. Keep clear of the door and include the visible condition in your request."
+      },
+      {
+        "question": "What photos are useful?",
+        "answer": "Only take photos from a safe position. Include a general view of the door and the affected area if it is visible."
+      },
+      {
+        "question": "Can cable and track issues be related?",
+        "answer": "Describe all symptoms, including uneven movement or a crooked door, so the full concern can be discussed."
+      }
+    ],
+    "related": [
+      "garage-off-track-repair",
+      "garage-door-spring-replacement",
+      "emergency-garage-door-services"
+    ],
+    "paperUrl": "https://app.paper.design/file/01M7NGKTX1SH1T9YZH3SP7SV5D/p-9-0"
+  },
+  {
+    "title": "Garage Off-Track Repair",
+    "slug": "garage-off-track-repair",
+    "description": "A crooked garage door or rollers out of position need professional attention. Request off-track repair for your Chicago or Highland Park home or business.",
+    "image": "/images/hardware.jpg",
+    "imageAlt": "Interior overhead garage door with tracks and operating hardware",
+    "intro": "Get a derailed door assessed",
+    "explanation": "An off-track door can look uneven or stop moving normally. Keep the opening clear and describe the door position rather than trying to push it back into place.",
+    "reasons": [
+      "The garage door looks crooked",
+      "A roller appears out of the track",
+      "One side of the door is higher",
+      "The door stopped while moving or no longer closes normally"
+    ],
+    "details": [
+      "The door position and affected side",
+      "Visible roller, track, or cable concerns",
+      "Recent impact or movement changes",
+      "Repair scope and next steps to confirm"
+    ],
+    "note": "Do not force the door or try to push rollers back into place. Keep people and vehicles clear.",
+    "faqHeading": "Questions about off-track repair",
+    "faqs": [
+      {
+        "question": "Should I try to straighten the door?",
+        "answer": "No. Avoid forcing or moving a crooked door. Request professional service and keep the area clear."
+      },
+      {
+        "question": "What should I say in the request?",
+        "answer": "Describe which side is affected, where the door stopped, and whether any impact or unusual movement preceded the problem."
+      },
+      {
+        "question": "Can I request urgent help for this?",
+        "answer": "Yes. Use Emergency Garage Door Services for an urgent request. Availability and response time need confirmation."
+      }
+    ],
+    "related": [
+      "garage-door-cable-repair",
+      "garage-door-spring-replacement",
+      "emergency-garage-door-services"
+    ],
+    "paperUrl": "https://app.paper.design/file/01M7NGKTX1SH1T9YZH3SP7SV5D/p-A-0"
+  }
+]
