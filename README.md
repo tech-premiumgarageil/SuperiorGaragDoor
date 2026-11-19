@@ -78,4 +78,6 @@ git push -u origin main
 
 `.gitignore` excludes dependencies, build outputs, local environment files and review captures. Keep real environment settings in the hosting service's environment configuration.
 
-A GitHub repository alone does not publish the Next.js server or request endpoint. Choose a Node/Next-compatible host, install dependencies with `npm ci`, build with `npm run build` and run with `npm start` (or the host's native Next.js adapter). The start script binds to loopback; a host requiring a public bind address must use its supported start command. No hosting service has been selected and no publication has been performed.
+A GitHub repository alone does not publish the Next.js server or request endpoint. Install dependencies with `npm ci`, build with `npm run build` and run with `npm start` (or the host's native Next.js adapter). The start script binds to loopback; a host requiring a public bind address must use its supported start command. Hostinger is the selected deployment target; successful public deployment has not yet been verified.
+
+For Hostinger, select the Next.js framework, Node.js 24 and build command `npm run build` (which uses Webpack). Configuration lives in `next.config.mjs` so Node can load it directly, including when an older Linux system requires Next.js's WebAssembly compiler fallback. If a previous deployment failed while loading `next.config.ts`, redeploy the latest `main` commit. The configuration change bypasses TypeScript config compilation; it does not upgrade the host's GLIBC library.

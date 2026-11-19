@@ -18,7 +18,7 @@ Help Chicago homeowners and commercial property managers understand the service 
 
 The office will be in Highland Park, Illinois. Its opening date and street address are undecided. Phone, email, street address, office ZIP code and hours remain clearly marked placeholders. The user still needs to provide actual business contact details and an integration destination.
 
-The project is open in VS Code and runs locally. It uses the `main` branch and the repository [tech-premiumgarageil/SuperiorGaragDoor](https://github.com/tech-premiumgarageil/SuperiorGaragDoor). No hosting service has been selected and the website has not been publicly deployed. A repository alone does not host the Next.js server or request handler.
+The project is open in VS Code and runs locally. It uses the `main` branch and the repository [tech-premiumgarageil/SuperiorGaragDoor](https://github.com/tech-premiumgarageil/SuperiorGaragDoor). Hostinger is the selected deployment target; successful public deployment has not yet been verified. A repository alone does not host the Next.js server or request handler.
 
 ## Capabilities and Constraints
 
