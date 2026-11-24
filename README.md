@@ -1,6 +1,6 @@
 # Superior Garage Doors USA
 
-A responsive Next.js implementation of the approved [Paper website](https://app.paper.design/file/01M7NGKTX1SH1T9YZH3SP7SV5D/p-1-0): homepage, service index and nine service pages. Uses Next.js 16.4.6, React 19.2, TypeScript, plain CSS, local fonts and local photography.
+A Next.js site for Superior Garage Doors USA that uses BestPro’s layouts and photography with Superior’s brand. It includes a Highland Park homepage, service and area directories, 15 service pages, 17 city pages, and About, Reviews, and Contact pages. It uses Next.js 16.4.6, React 19.2, TypeScript, Tailwind CSS 3, and local fonts.
 
 ## Run locally
 
@@ -18,21 +18,22 @@ In VS Code, choose **File → Open Folder** and select this project folder. Afte
 
 ## Edit the website
 
-| Change                                                         | File                                                                      |
-| -------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Homepage sections and copy                                     | `src/app/page.tsx`                                                        |
-| Colors, typography, layout and responsive rules                | `src/app/globals.css`                                                     |
-| All nine services: copy, slugs, photos, FAQs and related links | `src/lib/services.json`                                                   |
-| Shared service-page layout                                     | `src/app/services/[slug]/page.tsx`                                        |
-| Business contact settings and placeholder logic                | `src/lib/site.ts`, `.env.example`                                         |
-| Request forms and delivery handler                             | `src/components/request-form.tsx`, `src/app/api/service-request/route.ts` |
-| Photography and source credits                                 | `public/images/`, `image-sources.json`                                    |
+| Change                                          | File                                                                      |
+| ----------------------------------------------- | ------------------------------------------------------------------------- |
+| Homepage sections and copy                      | `src/app/page.tsx`                                                        |
+| Colors, typography and shared styles            | `tailwind.config.ts`, `src/app/globals.css`                               |
+| Service copy, slugs, photos and FAQs            | `src/lib/services.ts`, `src/lib/services.json`                            |
+| City names, ZIP codes, and city copy            | `src/data/areas.ts`                                                       |
+| Shared service-page layout                      | `src/app/services/[slug]/page.tsx`                                        |
+| Business contact settings and placeholder logic | `src/lib/site.ts`                                                         |
+| Request forms and delivery handler              | `src/components/request-form.tsx`, `src/app/api/service-request/route.ts` |
+| Photography and source credits                  | `public/images/`, `image-sources.json`                                    |
 
 See `DESIGN.md` for the implemented visual system and `PRODUCT.md` for product scope and remaining setup.
 
 ## Contact and request setup
 
-Phone, email, street address, office ZIP code and hours are conspicuous placeholders until supplied. The Highland Park office is described as **future**. Enter the real values in `.env.local` using the names in `.env.example`; check `NEXT_PUBLIC_SITE_URL` against the eventual production URL. Public `NEXT_PUBLIC_` values require a development-server restart or a production rebuild.
+Set Superior’s public contact details in `.env.local` with `NEXT_PUBLIC_PHONE_NUMBER`, `NEXT_PUBLIC_EMAIL_ADDRESS`, `NEXT_PUBLIC_STREET_ADDRESS`, `NEXT_PUBLIC_OFFICE_ZIP_CODE`, and `NEXT_PUBLIC_BUSINESS_HOURS`. The Highland Park office is described as **future**. Set `NEXT_PUBLIC_REVIEWS_URL` to Superior’s reviews profile and check `NEXT_PUBLIC_SITE_URL` against the production URL. Public `NEXT_PUBLIC_` values require a development-server restart or a production rebuild.
 
 `SERVICE_REQUEST_WEBHOOK_URL` is server-only and intentionally blank by default. In this state the form reports that contact setup is pending; a valid submission receives HTTP 503 and clear **not sent** feedback. This application does not store or log submitted personal information.
 
@@ -50,19 +51,9 @@ npm start
 
 `typecheck` generates Next route types before running TypeScript. `npm start` serves the production build at [http://127.0.0.1:3000](http://127.0.0.1:3000); stop the development server first if it uses that port.
 
-Handoff verification passed lint, type checking, nine validation/origin tests and the production build. All nine service pages prerendered successfully. Browser checks covered the homepage at 320, 390, 549, 800, 1024 and 1440px, all service pages at 390px, navigation, Escape, form validation, pending state and phone-placeholder behavior. HTTP checks covered routes, local images/fonts, 404, sitemap/robots and request responses (invalid service: 400; cross-origin: 403; valid request without a webhook: 503). Independent design review returned **ship** after comparing captures, service copy and SVG geometry with Paper. This is scoped verification, not a formal accessibility conformance assessment.
-
 ## Assets
 
-The five local photographs come from the user-selected [Premium Garage Door website](https://premiumgarageil.com/) and remain labeled illustrative reference photography. They are not presented as Superior company projects. `image-sources.json` credits each original URL and its design role; the local mapping is:
-
-| Local file         | Credited original                                        |
-| ------------------ | -------------------------------------------------------- |
-| `hero.webp`        | `Premium-Garage-Door-47.webp`                            |
-| `repair.jpg`       | `Premium-Garage-Door-53.jpg`                             |
-| `installation.jpg` | `Premium-Garage-Door-Overlay_Carriage_House-Doors-2.jpg` |
-| `commercial.webp`  | `commerical-customer.webp`                               |
-| `hardware.jpg`     | `rolling-garage-doors.jpg`                               |
+The 11 images copied from the local BestPro repository include the hero, service card, area, and hardware photos. The original Superior installation and commercial images also appear on their service pages. `image-sources.json` preserves the original Superior photo credits.
 
 Barlow, Barlow Condensed and Manrope are served locally. Their SIL Open Font License texts are in `public/fonts/barlow-OFL.txt`, `public/fonts/barlowcondensed-OFL.txt` and `public/fonts/manrope-OFL.txt`.
 

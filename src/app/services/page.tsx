@@ -1,46 +1,30 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { ServiceList } from "@/components/service-list";
-import { ContactSection } from "@/components/contact-section";
-import { Footer } from "@/components/footer";
+import { ServicesGrid } from "@/components/ServicesGrid";
+import { CtaBand } from "@/components/CtaBand";
+import { PageHero } from "@/components/PageHero";
 
 export const metadata: Metadata = {
-  title: "Garage Door Services in Chicago, IL",
+  title: "Garage Door Services in Highland Park, IL",
   description:
-    "Explore all nine Superior Garage Doors USA services for Chicago and Highland Park, from emergency repair to new garage doors and openers.",
+    "Garage door repair, spring replacement, opener installation, cable and roller repair, and emergency service in Highland Park, Chicago, and the suburbs.",
   alternates: { canonical: "/services" },
 };
-export default function ServicesPage() {
+
+export default function ServicesIndex() {
   return (
     <>
-      <main id="main-content">
-        <nav className="breadcrumbs" aria-label="Breadcrumb">
-          <ol className="container">
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li aria-current="page">Services</li>
-          </ol>
-        </nav>
-        <section className="services-index section">
-          <div className="container">
-            <div className="split-heading">
-              <h1>
-                Every way to a<br />
-                better garage.
-              </h1>
-              <p>
-                Repair, installation, and opener services for homes and
-                businesses in Chicago and Highland Park. Find the service that
-                fits your door.
-              </p>
-            </div>
-            <ServiceList includeEmergency />
-          </div>
-        </section>
-        <ContactSection />
-      </main>
-      <Footer />
+      <PageHero
+        title={
+          <>
+            Garage Door Services{" "}
+            <span className="text-accent">in Highland Park.</span>
+          </>
+        }
+        description="Whether a spring broke or you’re ready to upgrade to a custom carriage door, find the right service for your home or business."
+        image="detail"
+      />
+      <ServicesGrid heading="Everything we service." showIndexLink={false} />
+      <CtaBand />
     </>
   );
 }

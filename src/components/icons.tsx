@@ -12,6 +12,7 @@ export type IconName =
   | "bolt"
   | "pin"
   | "menu"
+  | "plus"
   | "close";
 const paths: Record<IconName, React.ReactNode> = {
   arrow: <path d="M5 12h14m-6-6 6 6-6 6" />,
@@ -54,6 +55,7 @@ const paths: Record<IconName, React.ReactNode> = {
     </>
   ),
   menu: <path d="M5 7h14M5 12h14M5 17h14" />,
+  plus: <path d="M5 12h14M12 5v14" />,
   close: <path d="m6 6 12 12M6 18 18 6" />,
 };
 export function Icon({

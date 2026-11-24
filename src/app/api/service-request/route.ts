@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { services } from "@/lib/services";
+import { getService, serviceSlugs } from "@/lib/services";
 import { isSameOrigin, validateRequest } from "@/lib/request-validation";
 
 export async function POST(request: NextRequest) {
@@ -39,10 +39,7 @@ export async function POST(request: NextRequest) {
       { message: "Please try again without the extra field." },
       { status: 400 },
     );
-  const result = validateRequest(
-    input,
-    services.map((s) => s.slug),
-  );
+  const result = validateRequest(input, serviceSlugs);
   if (!result.ok)
     return NextResponse.json(
       {
@@ -69,8 +66,7 @@ export async function POST(request: NextRequest) {
       body: JSON.stringify({
         ...result.data,
         serviceName:
-          services.find((s) => s.slug === result.data.service)?.title ||
-          "Not sure — help me choose",
+          getService(result.data.service)?.title || "Not sure — help me choose",
         source: "Superior Garage Doors USA website",
         submittedAt: new Date().toISOString(),
       }),

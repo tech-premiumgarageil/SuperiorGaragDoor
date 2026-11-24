@@ -1,7 +1,7 @@
 "use client";
 
 import { useId, useState, type FormEvent } from "react";
-import { services } from "@/lib/services";
+import { getService, services, serviceSlugs } from "@/lib/services";
 import { validateRequest } from "@/lib/request-validation";
 import { Icon } from "./icons";
 
@@ -17,7 +17,7 @@ export function RequestForm({
   deliveryConfigured?: boolean;
 }) {
   const uid = useId();
-  const selected = services.find((s) => s.slug === serviceSlug);
+  const selected = getService(serviceSlug);
   const [pending, setPending] = useState(false);
   const [feedback, setFeedback] = useState<{
     message: string;
@@ -29,10 +29,7 @@ export function RequestForm({
     if (pending) return;
     const form = event.currentTarget;
     const fields = Object.fromEntries(new FormData(form));
-    const result = validateRequest(
-      fields,
-      services.map((s) => s.slug),
-    );
+    const result = validateRequest(fields, serviceSlugs);
     setFeedback(null);
     if (!result.ok) {
       setErrors(result.errors);
@@ -78,11 +75,7 @@ export function RequestForm({
       aria-labelledby={`${uid}-heading`}
     >
       <div className="form-intro">
-        <h2 id={`${uid}-heading`}>
-          {selected || detailed
-            ? "Request service"
-            : "Request garage door service"}
-        </h2>
+        <h2 id={`${uid}-heading`}>Request service</h2>
         {selected ? (
           <p className="selected-service">{selected.title}</p>
         ) : (
@@ -216,9 +209,7 @@ export function RequestForm({
           </p>
         )}
         <p className="form-footnote">
-          {selected
-            ? "Scheduling and availability are confirmed separately."
-            : "For urgent issues, use the emergency call option."}
+          Scheduling and availability are confirmed separately.
         </p>
         {!deliveryConfigured && (
           <p className="form-preview-note">

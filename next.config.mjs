@@ -3,6 +3,22 @@
 /** @type {import("next").NextConfig} */
 const nextConfig = {
   poweredByHeader: false,
+  async rewrites() {
+    return {
+      beforeFiles: [
+        {
+          source: "/services/:slug.md",
+          destination: "/api/ai/markdown/service/:slug",
+        },
+        {
+          source: "/areas/:slug.md",
+          destination: "/api/ai/markdown/area/:slug",
+        },
+      ],
+      afterFiles: [],
+      fallback: [],
+    };
+  },
   async headers() {
     return [
       {
